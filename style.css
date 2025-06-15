@@ -137,3 +137,25 @@ footer nav ul li a:focus {
 .container {
   margin-top: 80px; /* או יותר, תלוי בגובה הלוגו */
 }
+.logo-and-title {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* רווח בין הלוגו למלל */
+  margin-bottom: 20px;
+}
+
+.site-logo {
+  height: 40px;  /* או מה שאתה רוצה */
+  width: auto;
+}
+
+.title-text h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.title-text h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #444;
+}
