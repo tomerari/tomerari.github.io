@@ -91,14 +91,14 @@ footer {
   z-index: 100;
   text-align: center; /* מרכז את התוכן בפוטר */
 }
-
+footer nav,
 footer nav ul {
-  list-style: none;
-  margin: 0 auto;
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  margin: 0;
   padding: 0;
-  display: inline-block; /* הופך את הרשימה לתוכן בגודל תוכן */
 }
-
 footer nav ul li {
   display: inline; /* מסדר את הפריטים בשורה */
   margin: 0 20px;  /* רווח בין הלינקים */
