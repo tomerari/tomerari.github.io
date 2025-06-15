@@ -82,21 +82,22 @@ nav ul li a:hover {
 }
 footer {
   background-color: #f0f0f0;
-  padding: 15px 20px;
+  padding: 0;  /* או ערך קטן יותר */
   box-shadow: none
   position: fixed;       /* אופציונלי - תמיד בתחתית המסך */
   bottom: 0;
   width: 100%;
   z-index: 100;
+  margin: 0;
 }
 
 footer nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center; /* למרכז */
-  gap: 40px;
-  margin: 0;
+  margin: 0 auto;  /* מרכז את הרשימה */
   padding: 0;
+  width: fit-content; /* רוחב מותאם לתוכן */
+  display: flex;
+  justify-content: center !important;
+  gap: 40px;
 }
 
 footer nav ul li a {
