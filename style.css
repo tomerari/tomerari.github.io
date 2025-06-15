@@ -1,40 +1,81 @@
+/* גוף הדף */
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: #ffffff; /* רקע לבן */
-  color: #000000;             /* טקסט שחור */
-  text-align: left;           /* יישור לשמאל */
+  background-color: #ffffff;
+  color: #000000;
+  text-align: left;
 }
 
-.container {
-  max-width: 800px;
-  margin: 80px auto;
-  padding: 20px;
+/* תפריט ניווט עליון */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 0;
+  margin: 0;
+  background-color: #f2f2f2;
 }
 
-h1 {
-  font-size: 48px;
-  margin-bottom: 10px;
+nav ul li a {
+  text-decoration: none;
+  color: black;
   font-weight: bold;
+  font-size: 16px;
 }
 
-h2 {
-  font-size: 24px;
+nav ul li a:hover {
+  color: #0077b5;
+}
+
+/* לוגו וכותרת זה לצד זה */
+.logo-and-title {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* לוגו קטן מצד שמאל */
+.site-logo {
+  height: 40px;
+  width: auto;
+}
+
+/* טקסט הכותרות עם ריווח מהלוגו */
+.title-text {
+  margin-left: 20px;  /* זה הריווח שמרחיק את המלל מהלוגו */
+}
+
+/* עיצוב הכותרות */
+.title-text h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.title-text h2 {
+  margin: 0;
+  font-size: 18px;
   color: #444;
-  font-weight: normal;
-  margin-top: 0;
 }
 
+/* פסקת הטקסט */
 p {
   font-size: 16px;
   color: #333;
   line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+  padding: 0 20px;
 }
 
+/* אייקונים חברתיים */
 .socials {
-  margin-top: 50px;
-  text-align: center;  /* אייקונים יהיו במרכז */
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .socials a {
@@ -46,99 +87,24 @@ p {
 }
 
 .socials a:hover {
-  color: #0077b5; /* כחול לינקדאין או צבע מעבר */
-}
-nav {
-  background-color: #f0f0f0;
-  padding: 15px 0;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: flex-end; /* משנה ליישור לימין */
-  gap: 40px; /* רווח בין הכותרות */
-  margin: 0;
-  padding: 0 20px; /* קצת ריווח משני הצדדים */
-}
-nav ul li a {
-  text-decoration: none;
-  color: #000000;
-  font-weight: 600;
-  font-size: 22px;
-  transition: color 0.3s ease;
-}
-nav ul li a:link,
-nav ul li a:visited {
-  color: #000000; /* שחור */
+  color: #0077b5;
 }
 
-nav ul li a:hover,
-nav ul li a:focus {
-  color: #0077b5; /* צבע כחול לדוגמה למעבר */
-}
-nav ul li a:hover {
-  color: #0077b5; /* צבע הכחול של לינקדאין לדוגמה */
-}
-footer {
-  background-color: #f0f0f0;
-  padding: 15px 0;
-  border: none !important;
-  box-shadow: none !important;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  z-index: 100;
-  text-align: center; /* מרכז את התוכן בפוטר */
-}
-footer nav,
+/* תפריט תחתון (פוטר) */
 footer nav ul {
-  border: none !important;
-  box-shadow: none !important;
-  background: transparent !important;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 0;
   margin: 0;
-  padding: 0;
-}
-footer nav ul li {
-  display: inline; /* מסדר את הפריטים בשורה */
-  margin: 0 20px;  /* רווח בין הלינקים */
+  background-color: #f2f2f2;
+  border-top: 1px solid #ddd;
 }
 
 footer nav ul li a {
-  font-size: 20px;
-  font-weight: 600;
   text-decoration: none;
-  color: #000000;
-  transition: color 0.3s ease;
-}
-
-footer nav ul li a:link,
-footer nav ul li a:visited {
-  color: #000000;
-}
-
-footer nav ul li a:hover,
-footer nav ul li a:focus {
-  color: #0077b5;
-}
-.logo-and-title {
-  display: flex;
-  align-items: center;
-  gap: 20px; /* רווח בין הלוגו למלל */
-  margin-bottom: 20px;
-}
-.site-logo {
-  height: 40px;  /* או מה שאתה רוצה */
-  width: auto;
-}
-
-.title-text h1 {
-  margin: 0;
-  font-size: 32px;
-}
-
-.title-text h2 {
-  margin: 0;
-  font-size: 18px;
-  color: #444;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
 }
