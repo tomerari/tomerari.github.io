@@ -88,6 +88,7 @@ footer nav ul li a {
   font-weight: bold;
   font-size: 14px;
 }
+
 .logo-and-title {
   display: flex;
   align-items: flex-start;
@@ -101,11 +102,13 @@ footer nav ul li a {
   height: 300px;
   width: auto;
   flex-shrink: 0;
-  margin-right: 40px;
+  margin-left: 10px;    /* מרווח מהקצה השמאלי */
+  margin-right: 40px;   /* רווח גדול יותר מימין ללוגו */
 }
 
 /* כל התוכן מימין ללוגו עם ריווח */
 .title-text {
+  padding-left: 30px;
   max-width: 800px;
 }
 
