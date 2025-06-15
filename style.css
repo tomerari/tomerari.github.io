@@ -47,7 +47,7 @@ nav ul li a:hover {
   height: 180px;
   width: auto;
   position: absolute; /* Position logo absolutely */
-  left: -50px; /* Move logo further left, outside the container */
+  left: -200px; /* Move logo much closer to the left edge */
   flex-shrink: 0;
 }
 
