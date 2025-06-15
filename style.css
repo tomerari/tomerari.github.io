@@ -61,8 +61,6 @@ nav ul {
   margin: 0;
   padding: 0 20px; /* קצת ריווח משני הצדדים */
 }
-}
-
 nav ul li a {
   text-decoration: none;
   color: #000000;
@@ -81,4 +79,40 @@ nav ul li a:focus {
 }
 nav ul li a:hover {
   color: #0077b5; /* צבע הכחול של לינקדאין לדוגמה */
+}
+footer {
+  background-color: #f0f0f0;
+  padding: 15px 20px;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+  position: fixed;       /* אופציונלי - תמיד בתחתית המסך */
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+footer nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end; /* לימין, כמו בתפריט העליון */
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+footer nav ul li a {
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #000000;
+  transition: color 0.3s ease;
+}
+
+footer nav ul li a:link,
+footer nav ul li a:visited {
+  color: #000000;
+}
+
+footer nav ul li a:hover,
+footer nav ul li a:focus {
+  color: #0077b5;
 }
