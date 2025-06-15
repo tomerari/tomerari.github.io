@@ -65,13 +65,20 @@ nav ul {
 
 nav ul li a {
   text-decoration: none;
-  color: #000;
+  color: #000000;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 22px;
   transition: color 0.3s ease;
 }
+nav ul li a:link,
+nav ul li a:visited {
+  color: #000000; /* שחור */
+}
 
+nav ul li a:hover,
+nav ul li a:focus {
+  color: #0077b5; /* צבע כחול לדוגמה למעבר */
+}
 nav ul li a:hover {
   color: #0077b5; /* צבע הכחול של לינקדאין לדוגמה */
 }
-
