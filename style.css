@@ -101,6 +101,7 @@ footer nav ul li a {
   height: 300px;
   width: auto;
   flex-shrink: 0;
+  margin-right: 40px;
 }
 
 /* כל התוכן מימין ללוגו עם ריווח */
