@@ -29,15 +29,21 @@ nav ul li a:hover {
 /* תוכן ראשי */
 .content {
   max-width: 800px;
-  margin: 0 auto; /* This centers the content */
-  text-align: center; /* This centers the text within the content */
+  margin: 0 auto;
 }
+
+/* Section for logo and title - keeps logo left, centers title */
 .logo-and-title {
   display: flex;
   align-items: center;
   max-width: 900px;
   margin: 0 auto 30px auto;
   padding: 40px 0;
+}
+
+/* Only center the main content paragraphs */
+.content > p {
+  text-align: center;
 }
 .site-logo {
   height: 180px;
