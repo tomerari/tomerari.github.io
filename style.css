@@ -53,14 +53,14 @@ nav {
   padding: 15px 0;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
-
 nav ul {
   list-style: none;
   display: flex;
-  justify-content: center;
-  gap: 40px;
+  justify-content: flex-end; /* משנה ליישור לימין */
+  gap: 40px; /* רווח בין הכותרות */
   margin: 0;
-  padding: 0;
+  padding: 0 20px; /* קצת ריווח משני הצדדים */
+}
 }
 
 nav ul li a {
