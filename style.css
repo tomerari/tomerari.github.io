@@ -82,22 +82,27 @@ nav ul li a:hover {
 }
 footer {
   background-color: #f0f0f0;
-  padding: 15px 0;  /* פחות padding צדדי כדי לא לדחוף */
+  padding: 15px 0;
   box-shadow: none !important;
   position: fixed;
   bottom: 0;
   width: 100%;
   z-index: 100;
-  text-align: center; /* מוודא שהכל במרכז */
+  text-align: center; /* מרכז את התוכן בפוטר */
 }
+
 footer nav ul {
   list-style: none;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
-  display: inline-flex; /* חשוב - תצוגה בשורה ומרכז */
-  gap: 40px;
-  justify-content: center; /* בתוך ה-inline-flex זה אופציונלי */
+  display: inline-block; /* הופך את הרשימה לתוכן בגודל תוכן */
 }
+
+footer nav ul li {
+  display: inline; /* מסדר את הפריטים בשורה */
+  margin: 0 20px;  /* רווח בין הלינקים */
+}
+
 footer nav ul li a {
   font-size: 20px;
   font-weight: 600;
@@ -105,6 +110,7 @@ footer nav ul li a {
   color: #000000;
   transition: color 0.3s ease;
 }
+
 footer nav ul li a:link,
 footer nav ul li a:visited {
   color: #000000;
