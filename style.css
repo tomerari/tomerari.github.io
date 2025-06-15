@@ -101,7 +101,7 @@ footer nav ul li a {
   height: 300px;
   width: auto;
   flex-shrink: 0;
-  margin-left: 40px;    /* Add left margin to separate from the page edge */
+  margin-left: 60px;    /* Add left margin to separate from the page edge */
   margin-right: 40px;   /* Space between logo and text */
 }
 
