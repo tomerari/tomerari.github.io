@@ -58,8 +58,8 @@ nav ul li a:hover {
 /* כל התוכן מימין ללוגו */
 .title-text {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  flex-direction: column:
+  align-items: center;
   text-align: center;
   padding-left: 0;
   margin: 0;
