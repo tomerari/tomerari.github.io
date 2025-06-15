@@ -83,7 +83,6 @@ nav ul li a:hover {
 footer {
   background-color: #f0f0f0;
   padding: 15px 20px;
-  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
   position: fixed;       /* אופציונלי - תמיד בתחתית המסך */
   bottom: 0;
   width: 100%;
@@ -93,7 +92,7 @@ footer {
 footer nav ul {
   list-style: none;
   display: flex;
-  justify-content: flex-end; /* לימין, כמו בתפריט העליון */
+  justify-content: center; /* למרכז */
   gap: 40px;
   margin: 0;
   padding: 0;
