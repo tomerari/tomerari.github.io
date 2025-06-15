@@ -30,7 +30,42 @@ nav ul li a:hover {
   color: #0077b5;
 }
 
-/* עיצוב הכותרות */
+/* תוכן ראשי */
+.content {
+  max-width: 800px;
+  margin-left: 40px;
+  margin-right: auto;
+}
+
+/* לוגו וכותרות */
+.logo-and-title {
+  display: flex;
+  align-items: flex-start;
+  padding: 40px 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+/* לוגו משמאל */
+.site-logo {
+  height: 300px;
+  width: auto;
+  flex-shrink: 0;
+  margin-right: 40px;
+  margin-left: 0;
+}
+
+/* כל התוכן מימין ללוגו */
+.title-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding-left: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
 .title-text h1 {
   margin: 0;
   font-size: 32px;
@@ -42,14 +77,26 @@ nav ul li a:hover {
   color: #444;
 }
 
-/* פסקת הטקסט */
-p {
+.title-text p {
   font-size: 16px;
   color: #333;
   line-height: 1.6;
-  max-width: 800px;
-  margin: 0 auto 40px auto;
-  padding: 0 20px;
+  margin-top: 20px;
+}
+
+.title-text .socials {
+  margin-top: 40px;
+  text-align: left;
+}
+
+/* פסקת הטקסט */
+.content p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  margin: 0 0 40px 0;
+  padding: 0;
+  max-width: 100%;
 }
 
 /* אייקונים חברתיים */
@@ -87,55 +134,4 @@ footer nav ul li a {
   color: black;
   font-weight: bold;
   font-size: 14px;
-}
-
-.logo-and-title {
-  display: flex;
-  align-items: flex-start;
-  padding: 40px 0 40px 0;
-  max-width: 800px;   /* changed */
-  margin-left: 40px;  /* changed */
-}
-
-.site-logo {
-  height: 300px;
-  width: auto;
-  flex-shrink: 0;
-  margin-left: 0;
-  margin-right: 40px;
-}
-
-.title-text {
-  padding-left: 0;
-  margin: 0;
-  max-width: 800px;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; /* changed */
-  text-align: left;        /* changed */
-}
-.title-text h1 {
-  margin: 0;
-  font-size: 32px;
-}
-
-.title-text h2 {
-  margin: 0;
-  font-size: 18px;
-  color: #444;
-}
-
-p {
-  font-size: 16px;
-  color: #333;
-  line-height: 1.6;
-  max-width: 800px;
-  margin: 0 0 40px 40px; /* changed */
-  padding: 0 20px 0 0;   /* changed */
-}
-
-.title-text .socials {
-  margin-top: 40px;
-  text-align: left;
 }
