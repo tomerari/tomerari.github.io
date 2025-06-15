@@ -30,26 +30,6 @@ nav ul li a:hover {
   color: #0077b5;
 }
 
-/* לוגו וכותרת זה לצד זה */
-.logo-and-title {
-  display: flex;
-  align-items: center;
-  padding: 20px;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-/* לוגו קטן מצד שמאל */
-.site-logo {
-  height: 40px;
-  width: auto;
-}
-
-/* טקסט הכותרות עם ריווח מהלוגו */
-.title-text {
-  margin-left: 20px;  /* זה הריווח שמרחיק את המלל מהלוגו */
-}
-
 /* עיצוב הכותרות */
 .title-text h1 {
   margin: 0;
