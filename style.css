@@ -121,29 +121,12 @@ footer nav ul li a:hover,
 footer nav ul li a:focus {
   color: #0077b5;
 }
-.site-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  padding: 10px 20px;
-  z-index: 999;
-  background-color: white; /* אם אתה רוצה רקע */
-}
-
-.site-logo {
-  height: 25px;  /* שנה לפי הצורך */
-  width: auto;
-}
-.container {
-  margin-top: 80px; /* או יותר, תלוי בגובה הלוגו */
-}
 .logo-and-title {
   display: flex;
   align-items: center;
   gap: 20px; /* רווח בין הלוגו למלל */
   margin-bottom: 20px;
 }
-
 .site-logo {
   height: 40px;  /* או מה שאתה רוצה */
   width: auto;
