@@ -37,3 +37,19 @@ p {
 .links a:hover {
   text-decoration: underline;
 }
+.socials {
+  margin-top: 30px;
+}
+
+.socials a {
+  margin: 0 15px;
+  font-size: 32px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.socials a:hover {
+  color: #1e90ff; /* צבע כשעוברים עם העכבר */
+}
+
