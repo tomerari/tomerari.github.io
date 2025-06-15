@@ -30,57 +30,58 @@ nav ul li a:hover {
 .content {
   max-width: 800px;
   margin: 0 auto;
+  text-align: center; /* Center all content by default */
 }
 
-/* Section for logo and title - keeps logo left, centers title */
+/* Section for logo and title */
 .logo-and-title {
   display: flex;
   align-items: center;
-  max-width: 900px;
+  max-width: 1000px; /* Increased to give more room */
   margin: 0 auto 30px auto;
-  padding: 40px 0;
+  padding: 40px 20px; /* Added side padding */
+  position: relative;
 }
 
-/* Only center the main content paragraphs */
-.content > p {
-  text-align: center;
-}
 .site-logo {
   height: 180px;
   width: auto;
-  margin-right: 40px;
+  position: absolute; /* Position logo absolutely */
+  left: 0; /* Pin logo to the far left */
   flex-shrink: 0;
 }
+
 .title-text {
   display: flex;
   flex-direction: column;
-  align-items: center;  /* centers content horizontally within title-text */
+  align-items: center;
   justify-content: center;
-  text-align: center;   /* centers text itself */
-  flex: 1;              /* take up remaining space */
+  text-align: center;
+  width: 100%; /* Take full width */
+  margin-left: 0; /* Remove any left margin */
 }
+
 .title-text h1 {
   margin: 0;
-  align-items: center;
   font-size: 32px;
 }
 .title-text h2 {
   margin: 0;
-  align-items: center;
   font-size: 18px;
   color: #444;
 }
 .title-text p {
   font-size: 16px;
-  align-items: center;
   color: #333;
   line-height: 1.6;
   margin-top: 20px;
+  text-align: center;
 }
 .title-text .socials {
   margin-top: 40px;
-  text-align: left;
+  text-align: center; /* Center the social icons */
 }
+
 /* פסקת הטקסט */
 .content p {
   font-size: 16px;
@@ -89,7 +90,9 @@ nav ul li a:hover {
   margin: 0 0 40px 0;
   padding: 0;
   max-width: 100%;
+  text-align: center; /* Center paragraphs */
 }
+
 /* אייקונים חברתיים */
 .socials {
   text-align: center;
@@ -105,6 +108,7 @@ nav ul li a:hover {
 .socials a:hover {
   color: #0077b5;
 }
+
 /* תפריט תחתון (פוטר) */
 footer nav ul {
   list-style: none;
