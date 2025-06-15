@@ -47,7 +47,7 @@ nav ul li a:hover {
   height: 180px;
   width: auto;
   position: absolute; /* Position logo absolutely */
-  left: 0; /* Pin logo to the far left */
+  left: -50px; /* Move logo further left, outside the container */
   flex-shrink: 0;
 }
 
