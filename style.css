@@ -92,23 +92,27 @@ footer nav ul li a {
 .logo-and-title {
   display: flex;
   align-items: flex-start;
-  padding: 40px 20px;
-  max-width: 1000px;
-  margin: 0; /* Remove auto to prevent centering */
+  padding: 40px 0 40px 0; /* Remove horizontal padding */
+  max-width: none;         /* Remove max-width restriction */
+  margin: 0;               /* Remove auto margins to prevent centering */
 }
 
 .site-logo {
   height: 300px;
   width: auto;
   flex-shrink: 0;
-  margin-left: 0;    /* Remove margin from left */
-  margin-right: 40px;   /* Keep space between logo and text */
+  margin-left: 40px;    /* Add left margin to separate from the page edge */
+  margin-right: 40px;   /* Space between logo and text */
 }
 
-/* כל התוכן מימין ללוגו עם ריווח */
 .title-text {
-  padding-left: 30px;
+  padding-left: 0;      /* Remove extra padding */
+  margin: 0 auto;       /* Center the text block */
   max-width: 800px;
+  flex: 1;              /* Allow .title-text to take remaining space */
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* Center the text horizontally */
 }
 
 .title-text h1 {
