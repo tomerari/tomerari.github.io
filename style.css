@@ -94,16 +94,15 @@ footer nav ul li a {
   align-items: flex-start;
   padding: 40px 20px;
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 0; /* Remove auto to prevent centering */
 }
 
-/* לוגו משמאל */
 .site-logo {
   height: 300px;
   width: auto;
   flex-shrink: 0;
-  margin-left: 10px;    /* מרווח מהקצה השמאלי */
-  margin-right: 40px;   /* רווח גדול יותר מימין ללוגו */
+  margin-left: 0;    /* Remove margin from left */
+  margin-right: 40px;   /* Keep space between logo and text */
 }
 
 /* כל התוכן מימין ללוגו עם ריווח */
