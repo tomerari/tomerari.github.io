@@ -37,35 +37,29 @@ nav ul li a:hover {
   margin-right: auto;
 }
 
-/* לוגו וכותרות */
 .logo-and-title {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto 30px auto;
   padding: 40px 0;
-  margin: 0;
-  max-width: 100%;
 }
 
-/* לוגו משמאל */
 .site-logo {
-  height: 300px;
+  height: 180px;
   width: auto;
-  flex-shrink: 0;
   margin-right: 40px;
-  margin-left: 0;
+  flex-shrink: 0;
 }
 
-/* כל התוכן מימין ללוגו */
 .title-text {
   display: flex;
-  flex-direction: column:
-  align-items: center;
-  text-align: center;
-  padding-left: 0;
-  margin: 0;
-  max-width: 100%;
+  flex-direction: column;
+  align-items: center;  /* centers content horizontally within title-text */
+  justify-content: center;
+  text-align: center;   /* centers text itself */
+  flex: 1;              /* take up remaining space */
 }
-
 .title-text h1 {
   margin: 0;
   font-size: 32px;
