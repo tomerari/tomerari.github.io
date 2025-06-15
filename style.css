@@ -92,17 +92,17 @@ footer nav ul li a {
 .logo-and-title {
   display: flex;
   align-items: flex-start;
-  padding: 40px 0 40px 0; /* Remove horizontal padding */
-  max-width: none;         /* Remove max-width restriction */
-  margin: 0;               /* Remove auto margins to prevent centering */
+  padding: 40px 0 40px 0;
+  max-width: 800px;   /* changed */
+  margin-left: 40px;  /* changed */
 }
 
 .site-logo {
   height: 300px;
   width: auto;
   flex-shrink: 0;
-  margin-left: 60px;    /* Add left margin to separate from the page edge */
-  margin-right: 40px;   /* Space between logo and text */
+  margin-left: 0;
+  margin-right: 40px;
 }
 
 .title-text {
@@ -112,8 +112,8 @@ footer nav ul li a {
   flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Left-align children */
-  text-align: left;        /* Make sure text is left-aligned */
+  align-items: flex-start; /* changed */
+  text-align: left;        /* changed */
 }
 .title-text h1 {
   margin: 0;
@@ -126,11 +126,13 @@ footer nav ul li a {
   color: #444;
 }
 
-.title-text p {
+p {
   font-size: 16px;
   color: #333;
   line-height: 1.6;
-  margin-top: 20px;
+  max-width: 800px;
+  margin: 0 0 40px 40px; /* changed */
+  padding: 0 20px 0 0;   /* changed */
 }
 
 .title-text .socials {
