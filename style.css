@@ -108,3 +108,46 @@ footer nav ul li a {
   font-weight: bold;
   font-size: 14px;
 }
+.logo-and-title {
+  display: flex;
+  align-items: flex-start;
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* לוגו משמאל */
+.site-logo {
+  height: 40px;
+  width: auto;
+  flex-shrink: 0;
+}
+
+/* כל התוכן מימין ללוגו עם ריווח */
+.title-text {
+  padding-left: 30px;
+  max-width: 800px;
+}
+
+.title-text h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.title-text h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #444;
+}
+
+.title-text p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+.title-text .socials {
+  margin-top: 40px;
+  text-align: left;
+}
