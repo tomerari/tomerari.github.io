@@ -30,24 +30,23 @@ nav ul li a:hover {
 .content {
   max-width: 800px;
   margin: 0 auto;
-  text-align: center; /* Center all content by default */
+  /* Remove text-align: center from here */
 }
 
 /* Section for logo and title */
 .logo-and-title {
   display: flex;
   align-items: center;
-  max-width: 1000px; /* Increased to give more room */
+  max-width: 1200px; /* Increase width to give more room */
   margin: 0 auto 30px auto;
-  padding: 40px 20px; /* Added side padding */
+  padding: 40px 20px;
   position: relative;
 }
 
 .site-logo {
   height: 180px;
   width: auto;
-  position: absolute; /* Position logo absolutely */
-  left: -200px; /* Move logo much closer to the left edge */
+  margin-right: 40px; /* Go back to normal positioning */
   flex-shrink: 0;
 }
 
@@ -57,8 +56,7 @@ nav ul li a:hover {
   align-items: center;
   justify-content: center;
   text-align: center;
-  width: 100%; /* Take full width */
-  margin-left: 0; /* Remove any left margin */
+  flex: 1; /* Take remaining space after logo */
 }
 
 .title-text h1 {
