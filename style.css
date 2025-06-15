@@ -83,6 +83,7 @@ nav ul li a:hover {
 footer {
   background-color: #f0f0f0;
   padding: 15px 20px;
+  box-shadow: none
   position: fixed;       /* אופציונלי - תמיד בתחתית המסך */
   bottom: 0;
   width: 100%;
